@@ -1,0 +1,206 @@
+.tribunal{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.topo{
+    background-color: #fff;
+}
+
+.contact{
+    color: #002356;
+    font-weight: 700;
+    font-size: 50px;
+}
+.descricao{
+    margin-bottom: .5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+.textDesc{
+    margin-top: 30px;
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+}
+.inputDiv{
+    background-color: #fff;
+    padding: 20px 40px;
+    position: relative;
+    
+}
+input{
+    width: 100%;
+    height: 50px;
+    color: #999595;
+    appearance: none;
+    border-radius: 8px;
+    border: 1px solid #dadada;
+    padding-left: 20px;
+}
+.btnp{
+    background-color: #002356;
+    float: right;
+    color: #fff;
+    padding: 10px;
+    width: 40%;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.containerDiv{
+    margin: 0px 0px 100px;
+    min-height: 500px;
+    background-color: #F2F7FB;
+    padding: 50px 30px;
+    margin-top: 60px;
+}
+
+.titulo{
+    color: #053168;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.descTitle{
+    color: #757778; 
+    margin-bottom: 50px;    
+}
+
+.campoBoxDiv{
+    display: f;
+    justify-content: center;    
+}
+
+.campoBox{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #053168;
+    width: 80%;
+    height: 120px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    background: #fff;
+    padding: .5rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    box-shadow: 8px 5px 5px black;
+    font-size: 20px;
+    transition: 0.3s;
+}
+a{
+    text-decoration: none !important;
+}
+.item{
+    text-decoration: none;
+}
+
+.box:hover{
+    background: #053168;
+    color: #fff;
+}
+
+@media screen and (min-width:320px) {
+   
+    .descricao{
+        font-size: 25px;
+    }    
+}
+
+@media screen and (min-width:768px){
+    .contact{
+        font-size: 80px;
+    }
+
+    .descricao{
+        font-size: 35px;
+    }
+
+    .textDesc{
+        font-size: 22px;
+    }
+
+    .inputDiv{
+        padding: 30px 50px;
+        font-size: 22px;
+    }
+
+    input{
+        height: 70px;
+    }
+
+    .titulo{
+        font-size: 80px;
+    }
+
+    .descTitle{
+        font-size: 22px;
+    }
+
+    .campoBox{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 50px;
+    }
+
+    .box{
+        width: 90%;
+        height: 160px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .contact{
+        font-size: 90px;
+    }
+
+    .descricao{
+        font-size: 39px;
+    }
+
+    .textDesc{
+        font-size: 27px;
+    }
+
+    .inputDiv{
+        padding: 35px 55px;
+        font-size: 27px;
+    }
+
+    input{
+        height: 90px;
+    }
+
+    .titulo{
+        font-size: 90px;
+    }
+
+    .descTitle{
+        font-size: 39px;
+    }
+
+    .campoBox{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        margin-left: 50px;
+    }
+
+    .box{
+        width: 90%;
+        height: 160px;
+        font-size: 30px;
+    }
+}
